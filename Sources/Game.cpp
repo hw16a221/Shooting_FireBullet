@@ -54,8 +54,10 @@ void Update()
             bulletPos.x = -999; // 弾を発射可能な状態に戻す
             PlaySound("se_maoudamashii_system20.mp3");
         }
+        if (bulletPos.x>300) {
+            bulletPos.x = -999; // 弾を発射可能な状態に戻す
+        }
     }
-
     // 背景の描画
     Clear(Color::cyan);
     FillRect(Rect(-320, -240, 640, 100), Color::green);
