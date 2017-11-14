@@ -26,7 +26,7 @@ void Start()
 {
     cloudPos = Vector2(-320, 100);
     cannonPos = Vector2(-315, -150);
-    targetRect = Rect(285, -140, 40, 40);
+    targetRect = Rect(280, -140, 40, 40);
     bulletPos.x = -999;
     score = 0;
     
